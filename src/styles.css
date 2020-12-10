@@ -1,0 +1,68 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+}
+body {
+  background-image: radial-gradient(circle, green, yellow, red);
+}
+
+.logo {
+  line-height: 3rem;
+}
+
+.bar {
+  border-color: white;
+  box-shadow: 2px 2px 2px 2px white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.food {
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 5rem;
+  margin-top: 3rem;
+}
+
+.social-2 {
+  position: fixed;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-135%);
+}
+
+.social-2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 0px;
+  background-color: white;
+  border: 1px solid #cbcbcb;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+.social-2 a:hover {
+  background-color: yellow;
+  transition: all ease 0.5s;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.social-2 i {
+  font-size: 11px;
+  color: black;
+  font-weight: bold;
+}
+
+.social-2 i:hover {
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
+}
